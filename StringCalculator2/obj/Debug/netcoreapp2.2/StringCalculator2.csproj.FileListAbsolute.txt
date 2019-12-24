@@ -1,0 +1,8 @@
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\bin\Debug\netcoreapp2.2\StringCalculator2.deps.json
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\bin\Debug\netcoreapp2.2\StringCalculator2.dll
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\bin\Debug\netcoreapp2.2\StringCalculator2.pdb
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.csproj.CoreCompileInputs.cache
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.AssemblyInfoInputs.cache
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.AssemblyInfo.cs
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.dll
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.pdb

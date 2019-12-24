@@ -1,0 +1,17 @@
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\bin\Debug\netcoreapp2.2\StringCalculator2.Test.deps.json
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\bin\Debug\netcoreapp2.2\StringCalculator2.Test.runtimeconfig.json
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\bin\Debug\netcoreapp2.2\StringCalculator2.Test.runtimeconfig.dev.json
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\bin\Debug\netcoreapp2.2\StringCalculator2.Test.dll
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\bin\Debug\netcoreapp2.2\StringCalculator2.Test.pdb
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\bin\Debug\netcoreapp2.2\StringCalculator2.dll
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\bin\Debug\netcoreapp2.2\StringCalculator2.pdb
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\obj\Debug\netcoreapp2.2\StringCalculator2.Test.csprojAssemblyReference.cache
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\obj\Debug\netcoreapp2.2\StringCalculator2.Test.csproj.CoreCompileInputs.cache
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\obj\Debug\netcoreapp2.2\StringCalculator2.Test.AssemblyInfoInputs.cache
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\obj\Debug\netcoreapp2.2\StringCalculator2.Test.AssemblyInfo.cs
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\obj\Debug\netcoreapp2.2\StringCalculator2.Test.csproj.CopyComplete
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\obj\Debug\netcoreapp2.2\StringCalculator2.Test.dll
+C:\Users\syw\source\repos\StringCalculator2\StringCalculator2.Test\obj\Debug\netcoreapp2.2\StringCalculator2.Test.pdb
