@@ -7,9 +7,18 @@ namespace StringCalculator2
         public int Add(string numbers)
         {
             var total = 0;
-            char? extraDelimiter = null;
-            if (numbers.StartsWith("//")) extraDelimiter = numbers[2];
-            var stringArray = numbers.Split(',','\n', extraDelimiter);
+            char[] delimiterArray;
+            if (numbers.StartsWith("//"))
+            { 
+                delimiterArray = new char[] {',', '\n', numbers[2]};
+            }
+
+            else
+            {
+                delimiterArray = new char[] {',', '\n'};
+            }
+
+            var stringArray = numbers.Split(delimiterArray);
             foreach (var str in stringArray)
             {
                 int result;

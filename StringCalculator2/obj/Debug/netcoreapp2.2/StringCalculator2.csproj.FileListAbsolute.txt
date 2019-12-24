@@ -6,3 +6,12 @@ C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\obj\Debug\netcorea
 C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.AssemblyInfo.cs
 C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.dll
 C:\Users\syw\source\repos\StringCalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.pdb
+C:\Users\HP\source\repos\stringcalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\stringcalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\stringcalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\stringcalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.AssemblyInfo.cs
+C:\Users\HP\source\repos\stringcalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.dll
+C:\Users\HP\source\repos\stringcalculator2\StringCalculator2\obj\Debug\netcoreapp2.2\StringCalculator2.pdb
+C:\Users\HP\source\repos\stringcalculator2\StringCalculator2\bin\Debug\netcoreapp2.2\StringCalculator2.deps.json
+C:\Users\HP\source\repos\stringcalculator2\StringCalculator2\bin\Debug\netcoreapp2.2\StringCalculator2.dll
+C:\Users\HP\source\repos\stringcalculator2\StringCalculator2\bin\Debug\netcoreapp2.2\StringCalculator2.pdb
