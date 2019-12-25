@@ -38,6 +38,7 @@ namespace StringCalculator2
 
         }
 
+
         private string[] CreateDelimiterArray(string numbers)
         {
             string[] delimiterArray;
@@ -66,17 +67,20 @@ namespace StringCalculator2
             return delimiterArray;
         }
 
-        //private string[] ExtractNumericSubStrings(string numbers)
-        //{
-        //    string[] resultArray;
-        //    string[] patterns = { "^//\\D\n", "^//[\\D+]" };
-        //    foreach (var pattern in patterns)
-        //    {
-        //        if (Regex.IsMatch(numbers, pattern))
-        //        {
-        //            resultArray = 
-        //        }
-        //    }
-        //}
+        private string[] ExtractNumericSubStrings(string numbers)
+        {
+            string[] resultArray;
+            string[] patterns = { "^//\\D\n", "^//[\\D+]" };
+            foreach (var pattern in patterns)
+            {
+                if (Regex.IsMatch(numbers, pattern))
+                {
+                    //create a regex of the delimiters
+                    //extract a matchescollection of matching elements
+                    //extract just the digits from each element
+                    //return the stringarray
+                }
+            }
+        }
     }
 }
