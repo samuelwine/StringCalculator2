@@ -13,8 +13,10 @@ namespace StringCalculator2
             
             List<int> negativeValues = new List<int>();
 
-            var delimiterArray = CreateDelimiterArray(numbers);
-            var stringArray = numbers.Split(delimiterArray, StringSplitOptions.None);
+            //var delimiterArray = CreateDelimiterArray(numbers);
+            //var stringArray = numbers.Split(delimiterArray, StringSplitOptions.None);
+
+            var stringArray = ExtractNumericSubStrings(numbers);
             foreach (var str in stringArray)
             {                
                 int.TryParse(str, out result);                
@@ -67,20 +69,42 @@ namespace StringCalculator2
             return delimiterArray;
         }
 
-        private string[] ExtractNumericSubStrings(string numbers)
+        private List<string> ExtractNumericSubStrings(string numbers)
         {
-            string[] resultArray;
-            string[] patterns = { "^//\\D\n", "^//[\\D+]" };
-            foreach (var pattern in patterns)
-            {
-                if (Regex.IsMatch(numbers, pattern))
+            List<string> resultStrings = new List<string>();
+            
+            if (Regex.IsMatch(numbers, "^//\\D\n"))
+            {                
+                Regex delimiter = new Regex("\\D\\d+|\\d+\\D");
+                foreach (Match match in delimiter.Matches(numbers))
                 {
-                    //create a regex of the delimiters
-                    //extract a matchescollection of matching elements
-                    //extract just the digits from each element
-                    //return the stringarray
+                    Regex integers = new Regex("\\d+");
+
+                    resultStrings.Add(integers.Match(match.Value).Value);
+                }                
+            }
+
+            else if (Regex.IsMatch(numbers, "^//[\\D+]"))
+            {  
+                Regex delimiter = new Regex("\\D+\\d+|\\d+\\D+");                
+                foreach (Match match in delimiter.Matches(numbers))
+                {
+                    Regex integers = new Regex("\\d+");
+
+                    resultStrings.Add(integers.Match(match.Value).Value);
+                }                
+            }
+
+            else
+            {
+                var splitStrings = numbers.Split(new string[] { ",", "\n" }, StringSplitOptions.None);
+                foreach (var substring in splitStrings)
+                {
+                    resultStrings.Add(substring);
                 }
             }
+
+            return resultStrings;
         }
     }
 }
